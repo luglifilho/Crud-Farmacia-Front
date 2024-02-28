@@ -55,7 +55,7 @@ function ListaCategorias() {
         wrapperClass="dna-wrapper mx-auto"
       />
     )}
-    <div>
+    <div className=' mr-[150px] flex justify-end'>
         <Link to={'/cadastroCategoria'}> <button className='bg-orange-300 text-black rounded-full w-120 p-5 font-bold text-2xl '>
             Cadastrar nova Categoria</button>
             </Link>
