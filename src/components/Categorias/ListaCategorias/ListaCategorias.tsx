@@ -56,8 +56,8 @@ function ListaCategorias() {
       />
     )}
     <div>
-        <Link to={'/cadastroCategoria'}> <button className='bg-orange-300 text-black rounded-full'>
-            CADASTRAR NOVA CATEGORIA</button>
+        <Link to={'/cadastroCategoria'}> <button className='bg-orange-300 text-black rounded-full w-120 p-5 font-bold text-2xl '>
+            Cadastrar nova Categoria</button>
             </Link>
     </div>
     <div className="flex justify-center w-full my-4">
