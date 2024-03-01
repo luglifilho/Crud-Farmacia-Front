@@ -17,8 +17,7 @@ function ListaProdutos() {
 
   async function buscarProdutos() {
     try {
-      await buscar('/produto', setProdutos, {
-      });
+      await buscar('/produto', setProdutos,);
     } catch (error: any) {
       if (error.toString().includes('403')) {
         alert('O token expirou, favor logar novamente')    
