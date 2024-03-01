@@ -19,7 +19,7 @@ function App() {
     <div className=' bg-white'>
     <Home/>
     <Routes>
-      <Route path='/categorias' element={<ListaCategorias/>} />
+      <Route path='/categoria' element={<ListaCategorias/>} />
       <Route path='/produto' element={<ListaProdutos/>} />
       <Route path='/cadastroCategoria' element={<CadastroCategoria/>} />
       <Route path='/editarCategoria/:id' element={<CadastroCategoria/>} />

@@ -1,9 +1,11 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/"
+  baseURL: "https://6bbd-2804-431-c7c5-9dc-4c26-3ce-f771-7bfb.ngrok-free.app"
+
 })
 
+  api.defaults.headers.common['ngrok-skip-browser-warning'] = '69420';
 
   // eslint-disable-next-line @typescript-eslint/ban-types
   export const buscar = async(url: string, setDados: Function, ) => {
